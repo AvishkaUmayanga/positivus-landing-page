@@ -10,7 +10,7 @@ import comImage6 from '@/../public/Company logo6.png'
 const HeroSection = () => {
   return (
     <>
-    <div className="flex items-center justify-between gap-10 mt-20 max-lg:flex-col">
+    <div className="flex items-center justify-between gap-10 mt-20 max-lg:flex-col xl:mt-28">
       <div className="flex flex-col gap-10 ">
         <h1 className="text-5xl font-bold">Navigating the<br/> digital landscape<br/> for success</h1>
         <p className=" max-w-96">Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
