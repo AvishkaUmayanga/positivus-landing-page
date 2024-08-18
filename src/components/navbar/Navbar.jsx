@@ -15,7 +15,7 @@ import {
 
 const Navbar = () => {
   return (
-    <div className="fixed left-0 right-0 flex items-center justify-between px-12">
+    <div className="fixed left-0 right-0 flex items-center justify-between px-12 py-5 2xl:px-20 max-md:px-5 bg-whiteColor">
       <Image src={logo} className="h-7 w-36"/>
       <ul className="flex items-center gap-8 text-lg capitalize max-lg:hidden">
         <li>About us</li>
@@ -34,7 +34,7 @@ const Navbar = () => {
         <DropdownMenuTrigger>
           <Image src={menuIcon} />
         </DropdownMenuTrigger>
-        <DropdownMenuContent className="flex flex-col items-center w-screen gap-8 py-2 mt-2 text-lg capitalize ">
+        <DropdownMenuContent className="flex flex-col items-center w-screen gap-8 py-2 mt-2 text-lg capitalize bg-whiteColor">
           <DropdownMenuItem>About us</DropdownMenuItem>
           <DropdownMenuItem>services</DropdownMenuItem>
           <DropdownMenuItem>use cases</DropdownMenuItem>
