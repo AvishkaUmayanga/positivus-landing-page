@@ -11,7 +11,7 @@ const FreeProposal = () => {
         Get your free proposal
         </button>
       </div>
-      <Image src={proposalImg} className='absolute right-0 w-72 max-xmd:hidden'/>
+      <Image src={proposalImg} className='absolute right-0 w-72 max-xmd:hidden lg:right-10'/>
     </div>
   )
 }
