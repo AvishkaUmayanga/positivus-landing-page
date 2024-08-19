@@ -1,5 +1,4 @@
 import leanIcon from '@/../public/learnMoreIcon.png'
-import services1 from '@/../public/services1.png'
 import { servicesData } from '@/data/servicesData'
 import Image from 'next/image'
 const ServicesSection = () => {

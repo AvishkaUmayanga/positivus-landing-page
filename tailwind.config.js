@@ -17,6 +17,9 @@ module.exports = {
       },
     },
     extend: {
+      screens: {
+        "xmd": "820px",
+      },
       colors: {
         'black' : '#000000',
         'whiteColor' : '#FFFFFF',
