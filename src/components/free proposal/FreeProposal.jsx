@@ -7,7 +7,7 @@ const FreeProposal = () => {
       <div className="flex flex-col gap-6 ">
         <h3 className="text-xl font-bold">Let’s make things happen</h3>
         <p className=" max-w-96">Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
-        <button className="px-5 py-2 text-sm bg-black text-whiteColor max-w-fit rounded-xl">
+        <button className="px-5 py-2 text-sm duration-300 bg-black text-whiteColor max-w-fit rounded-xl hover:scale-95">
         Get your free proposal
         </button>
       </div>
