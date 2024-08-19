@@ -20,7 +20,13 @@ module.exports = {
       colors: {
         'black' : '#000000',
         'whiteColor' : '#FFFFFF',
+        'lightGreen' : '#B9FF66',
+        'lightGray' : '#F3F3F3',
       },
+    },
+    gridTemplateColumns: {
+      'cols2': 'repeat(2, minmax(0, auto))',
+      'cols1': 'repeat(1, minmax(0, auto))',
     },
   },
   plugins: [require("tailwindcss-animate")],
