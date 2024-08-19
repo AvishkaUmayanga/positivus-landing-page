@@ -9,7 +9,7 @@ import comImage6 from '@/../public/Company logo6.png'
 
 const HeroSection = () => {
   return (
-    <>
+    <div>
     <div className="flex items-center justify-between gap-10 mt-20 max-lg:flex-col xl:mt-28">
       <div className="flex flex-col gap-10 ">
         <h1 className="text-5xl font-bold">Navigating the<br/> digital landscape<br/> for success</h1>
@@ -28,7 +28,7 @@ const HeroSection = () => {
       <Image src={comImage5}/>   
       <Image src={comImage6}/>   
     </div>
-    </>
+    </div>
   )
 }
 
