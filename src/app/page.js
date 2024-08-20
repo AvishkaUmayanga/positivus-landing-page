@@ -1,3 +1,4 @@
+import CaseStudies from "@/components/case studies/CaseStudies";
 import FreeProposal from "@/components/free proposal/FreeProposal";
 import HeroSection from "@/components/hero section/HeroSection";
 import ServicesSection from "@/components/services/ServicesSection";
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <ServicesSection />
       <FreeProposal />
+      <CaseStudies />
     </main>
   );
 }
