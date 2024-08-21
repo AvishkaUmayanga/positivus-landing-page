@@ -1,5 +1,4 @@
-'use client'
-import ProcessAccordion from "../working process accordion/ProcessAccordion"
+import ProcessAccordion from "@/components/working process accordion/ProcessAccordion"
 
 const WorkingProcess = () => {
   return (
