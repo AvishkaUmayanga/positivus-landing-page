@@ -28,7 +28,7 @@ const OurTeam = () => {
         </div>
         ))}
       </div>
-      <button className="self-end px-4 py-1 -mt-10 duration-200 bg-black rounded-lg text-whiteColor w-fit hover:scale-95">See all team</button>
+      <button className="self-end px-4 py-1 duration-200 bg-black rounded-lg xmd:-mt-10 text-whiteColor w-fit hover:scale-95">See all team</button>
     </div>
   )
 }
