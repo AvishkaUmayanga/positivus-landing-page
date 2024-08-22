@@ -1,4 +1,5 @@
 import CaseStudies from "@/components/case studies/CaseStudies";
+import ContactUs from "@/components/contact us/ContactUs";
 import FreeProposal from "@/components/free proposal/FreeProposal";
 import HeroSection from "@/components/hero section/HeroSection";
 import ServicesSection from "@/components/services/ServicesSection";
@@ -16,6 +17,7 @@ export default function Home() {
       <WorkingProcess />
       <OurTeam />
       <Testimonials />
+      <ContactUs />
     </main>
   );
 }
