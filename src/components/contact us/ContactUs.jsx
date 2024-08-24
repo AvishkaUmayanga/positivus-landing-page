@@ -20,7 +20,7 @@ const ContactUs = () => {
                 <label className="ml-1 " for="Quote">Get a Quote</label>
               </div>
             </div>
-              <div className="flex flex-col ">
+              <div className="flex flex-col mt-2">
                 <label htmlFor="name">Name</label>
                 <input type="text" id="name" className="p-1 border rounded-md" />
                 <br />
