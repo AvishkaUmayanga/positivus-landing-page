@@ -32,7 +32,7 @@ const ContactUs = () => {
               <textarea id="message" rows="4" className="w-full p-1 border rounded-md"/>
             </form>
         </div>
-        <div className='relative w-full max-xmd:hidden'>
+        <div className='relative w-full overflow-hidden max-xmd:hidden'>
           <Image src={contactImg} alt='contact' className='absolute self-end -right-44 w-80 h-80' />
         </div>
       </div>
