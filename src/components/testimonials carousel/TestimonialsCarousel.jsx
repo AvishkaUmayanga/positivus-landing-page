@@ -31,7 +31,7 @@ const TestimonialsCarousel = () => {
   };
 
   return (
-    <div className='p-5 bg-black rounded-xl'>
+    <div className='p-5 bg-black rounded-xl z-10'>
       <Carousel 
         responsive={responsive}
         swipeable={true}
