@@ -15,7 +15,7 @@ import {
 
 const Navbar = () => {
   return (
-    <div className="fixed left-0 right-0 z-10 flex items-center justify-between px-12 py-5 2xl:px-20 max-md:px-5 bg-whiteColor">
+    <div className="fixed left-0 right-0  flex items-center justify-between px-12 py-5 2xl:px-20 max-md:px-5 bg-whiteColor z-50">
       <Image src={logo} className="h-7 w-36"/>
       <ul className="flex items-center gap-8 text-lg capitalize max-lg:hidden">
         <li>About us</li>
