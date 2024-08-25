@@ -6,7 +6,7 @@ import xLogo from '@/../public/x.png'
 
 const Footer = () => {
   return (
-    <div className='flex flex-col p-5 py-5 mx-12 mt-10 text-sm bg-black rounded-t-xl 2xl:mx-20 max-md:mx-5 text-whiteColor gap-10'>
+    <div className='flex flex-col p-5 py-5 mx-12 mt-20 text-sm bg-black rounded-t-xl 2xl:mx-20 max-md:mx-5 text-whiteColor gap-10'>
       <div className='flex items-center justify-between max-md:flex-col'>
         <Image src={logo} className="w-24 h-5"/>
         <ul className="flex items-center gap-8 capitalize max-md:flex-col max-md:gap-4 max-md:mt-5">
